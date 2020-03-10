@@ -1,6 +1,9 @@
 # VRMemoryPlayground
 A place for our team to learn Unity
 
+# Key Steps:
+* Make sure to download the **Standard Assets** into the project once you have it set up, these are needed in our project but are too large to be tracked in git.
+
 # Resources:
 
 * Unity User Manual: https://docs.unity3d.com/Manual/UnityManual.html

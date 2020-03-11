@@ -37,8 +37,7 @@ public class BlockPlacer : MonoBehaviour {
 		
 		if (vector.x >= (GameObject.Find("PlayArea").transform.position.x - GameObject.Find("PlayArea").transform.localScale.x) && 
 			vector.x <= (GameObject.Find("PlayArea").transform.position.x + GameObject.Find("PlayArea").transform.localScale.x) &&
-			vector.y >= (GameObject.Find("PlayArea").transform.position.y - GameObject.Find("PlayArea").transform.localScale.y) &&
-			vector.y <= (GameObject.Find("PlayArea").transform.position.y + GameObject.Find("PlayArea").transform.localScale.y) &&
+			vector.y >= (.995) && vector.y <= (2) &&
 			vector.z >= (GameObject.Find("PlayArea").transform.position.z - GameObject.Find("PlayArea").transform.localScale.z) &&
 			vector.z <= (GameObject.Find("PlayArea").transform.position.z + GameObject.Find("PlayArea").transform.localScale.z)
 			) 
